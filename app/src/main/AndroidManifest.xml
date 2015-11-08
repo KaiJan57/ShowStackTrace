@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kai_jan_57.showstacktrace" >
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="@string/module_description" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
+
+        <receiver
+            android:name=".receiver.CrashReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="999">
+                <action android:name="com.kai_jan_57.ShowStackTrace.CRASHRECEIVER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.ShowStackTraceActivity"
+            android:label="@string/title_activity_show_stack_trace"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:clearTaskOnLaunch="true"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.About"
+            android:label="@string/about"/>
+    </application>
+
+</manifest>

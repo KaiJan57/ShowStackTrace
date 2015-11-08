@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShowStackTrace</string>
+    <string name="question_showstacktrace">wurde beendet.</string>
+    <string name="title_activity_show_stack_trace">Stacktrace</string>
+    <string name="report">Bericht anzeigen</string>
+    <string name="causedby">Verursacht von:</string>
+    <string name="at">bei</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="no_settings_yet">Im Moment gibt es keine Einstellungen</string>
+    <string name="some_nothing">Ein bisschen gar nichts</string>
+    <string name="module_description">Zeigt ein Dialog beim Absturz einer App mit "ZeigeStackTrace" Option</string>
+    <string name="about">Über...</string>
+    <string name="str5about">Bei [An]fragen und Bugs schreibt bitte in die Kommentare. Schreibt möglichst genau bei Bugs! Ich wünsche euch viel Spaß mit der App :-)</string>
+    <string name="str1about">Idee: Kai_Jan_57</string>
+    <string name="str2about">Programming: Kai_Jan_57</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ShowStackTrace</string>
+    <string name="question_showstacktrace">has stopped.</string>
+    <string name="title_activity_show_stack_trace">Stacktrace</string>
+    <string name="report">Show report</string>
+    <string name="causedby">Caused by:</string>
+    <string name="at">at</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="no_settings_yet">There are no settings yet</string>
+    <string name="some_nothing">Some nothing</string>
+    <string name="module_description">Shows dialog on app crash with "ShowStackTrace" option</string>
+    <string name="about">About...</string>
+    <string name="str5about">If you have any Questions / Suggestions, please write into the comments. Write every detail, if you fond bugs, so I can fix them. I wish you much fun with this app :-)</string>
+    <string name="str1about">Idea: Kai_Jan_57</string>
+    <string name="str2about">Programming: Kai_Jan_57</string>
+</resources>
